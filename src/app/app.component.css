@@ -1,0 +1,9 @@
+.header{
+    border:1px solid #000;
+}
+.header ul li{
+    display: inline-block;
+    margin-right: 5%;
+    padding-top:2.5%;
+    padding-bottom:2.5%;
+}
