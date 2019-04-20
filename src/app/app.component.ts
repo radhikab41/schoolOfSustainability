@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
-  sections= ['Home','About','Bioculture Database','News & Events'];
-  selectors =['app-home','app-about','app-database','app-news'];
+ 
+
 }

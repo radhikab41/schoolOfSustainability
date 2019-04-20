@@ -1,9 +1,20 @@
-.header{
-    border:1px solid #000;
+.body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
 }
+
 .header ul li{
     display: inline-block;
     margin-right: 5%;
     padding-top:2.5%;
     padding-bottom:2.5%;
+}
+
+router-outlet{
+    height: 100%;
+    width:100%;
+}
+.window{
+    height: 100%;
+    width:100%;
 }

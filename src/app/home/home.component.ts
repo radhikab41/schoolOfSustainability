@@ -1,12 +1,12 @@
 import { Component ,OnInit} from '@angular/core';
 
 @Component({
-  selector: 'app-home',
+  selector: 'home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit{
-  newcomponent = "Entered in new component created";
+  projects = ['project 1','project2','project3'];
   constructor() {}
   ngOnInit() { }
 }

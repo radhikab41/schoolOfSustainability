@@ -1,0 +1,43 @@
+.home{
+    text-align: center;
+}
+ .landing{
+     background-image: url('../../assets/DSC_0084.JPG');
+    background-color: coral;
+    margin:0px;
+    
+    text-align: center;
+    height:1700px;
+    color:#fff;
+    font-size: 2em;    
+}
+
+.carousel{
+    height:1000px;
+}
+
+#landing-title{
+    padding:30%;
+}
+
+li{
+    display:inline;
+    margin:3%;
+}
+img{
+    width:25%;
+    height:25%;
+}
+.mission-holder{
+    text-align: center;
+    vertical-align: -webkit-baseline-middle;
+    height:1000px;
+    background-image: url("../../assets/IMG_8544.JPG");
+    padding:5%;
+}
+.mission{
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    height:80%;
+   
+}

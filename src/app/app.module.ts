@@ -20,26 +20,26 @@ import { ResourcesComponent } from './resources/resources.component';
     CommonModule,
     RouterModule.forRoot([
       {
-         path: 'app-home',
+         path: 'home',
          component: HomeComponent
       },
       {
-        path: 'app-about',
+        path: 'about',
         component: AboutComponent
       },
       {
-        path:'app-currentwork',
+        path:'currentwork',
         component:CurrentWorkComponent
       },
       {
-        path : 'app-database',
+        path : 'database',
         component:DatabaseComponent
       },
       {
-        path:'app-newsevents',
+        path:'newsevents',
         component:NewsEventsComponent
       },{
-        path:'app-resources',
+        path:'resources',
         component:ResourcesComponent
       }
    ])

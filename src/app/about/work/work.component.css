@@ -1,0 +1,16 @@
+.about{
+    padding:3%;
+    background-image: url("../../assets/cream.png");
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.about .page-heading{
+    text-align: center;
+}
+.img{
+    width:100%;
+    text-align: center;
+}
+img{
+    width:70%;
+    height:50%;
+}
