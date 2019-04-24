@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './team.component.html',
   styleUrls: ['./team.component.css']
 })
-export class TeamComponent {
-  title = 'my-app';
+export class TeamComponent implements OnInit  {
+  newcomponent = "Entered in new component created";
+   constructor() {}
+   ngOnInit() { }
  
-
 }

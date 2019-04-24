@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -6,8 +6,9 @@ import { Component } from '@angular/core';
   templateUrl: './story.component.html',
   styleUrls: ['./story.component.css']
 })
-export class StoryComponent {
-  title = 'my-app';
+export class StoryComponent implements OnInit  {
+  newcomponent = "Entered in new component created";
+   constructor() {}
+   ngOnInit() { }
  
-
 }
